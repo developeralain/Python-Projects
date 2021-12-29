@@ -9,11 +9,11 @@ class Player:
     health = '100'
     
 
-class Mage(User):
+class Mage(Player):
     spell_power = '100'
     mana = '80'
     
 
-class Warrior(User):
+class Warrior(Player):
     rage = '0'
     weapon = 'sword of the bear'
