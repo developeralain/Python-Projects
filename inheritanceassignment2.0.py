@@ -25,14 +25,14 @@ class Warrior(Player):
     weapon = 'sword of the bear'
 
 #here you can designate a mage as 'Evandros' and instantiate him.
-Evandros = Mage
+Evandros = Mage()
 #here you can see what his starting mana pool is
 print(Evandros.mana)
 #here you can see the username is carried over from parent class Player
 print(Evandros.user_name)
 
 #here you can designate a warrior as 'Savages'
-Savages = Warrior
+Savages = Warrior()
 #here you can see what his starting weapon is
 print(Savages.weapon)
 #here you can see the username is carried over from parent class Player
