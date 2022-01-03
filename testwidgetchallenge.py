@@ -16,7 +16,7 @@ class ParentWindow(Frame):
         self.pathName = StringVar()
 
 
-            #title
+            
 
         #buttons 
         self.browse1 = Button(self.master,text="Browse...",command=self.callback)
@@ -43,16 +43,25 @@ class ParentWindow(Frame):
             
 
 
-
-
+#this method uses a filedialog module method that opens a windows system window and shows you whichever directory you specify (here it is C:)
+    
+   
+    
+#self.entry1.insert(0,path) inserts a new value that corresponds to the path to the directory selected by the user 
+#the path to the directory is simultaneously stored in the path variable
     def callback(self):
         path = fd.askdirectory(title="Choose Directory",initialdir=
                                             "C:/",mustexist=True)
+
+#path variable is printed, to verify it works (for dev purposes)
         print(path)
         
         
-        
-        self.entry1.config(text=path)
+#self.entry1.delete(0,END) deletes the current text value for widget entry1 (set to '')       
+        self.entry1.delete(0,END)
+
+#self.entry1.insert(0,path) inserts the path variable (a string) into the entry1 widget for a user to see.
+        self.entry1.insert(0,path)
 
 
 if __name__ == '__main__':
