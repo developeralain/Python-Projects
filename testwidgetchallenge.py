@@ -43,10 +43,7 @@ class ParentWindow(Frame):
             
 
 
-#this method uses a filedialog module method that opens a windows system window and shows you whichever directory you specify (here it is C:)
-    
-   
-    
+#this method uses a filedialog module method that opens a windows system window and shows you whichever directory you specify (here it is C:)        
 #self.entry1.insert(0,path) inserts a new value that corresponds to the path to the directory selected by the user 
 #the path to the directory is simultaneously stored in the path variable
     def callback(self):
