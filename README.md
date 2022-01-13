@@ -1,9 +1,9 @@
 # Python-Projects
-A container for all my projects, as well as significant skills and experiences, while on the Tech Academy Software Developer Bootcamp
+Here are my basic projects that I wrote in Python. They utilize various modules, including tkinter and sqlite3.
 
-# Experience in the Following Python Technologies
-- Tkinter
-- Sqlite
+# Projects
+- [Phonebook Application](https://github.com/developeralain/Python-Projects/blob/main/FileTransfer_Assignment_Part3.py)
+- [Catchy word or short word](URL to navigate)Check Files Gui
 
 # Created the Following Projects
 - Phonebook Application using Tkinter
